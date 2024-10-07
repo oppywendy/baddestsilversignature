@@ -6,10 +6,10 @@ const Header = () => {
        <div className='w-[95%] h-[9vh] flex items-center justify-between'>
        <div className='flex md:gap-10 gap-2 items-center'>
        <div className="md:w-28 w-20"><img src={logo} alt="logo" /></div>
-       <div><h1 className="font-medium text-black md:text-[30px] text-sm">BADDEST SILVER SIGNATURE</h1></div>
+       <div><h1 className="font-medium text-black md:text-[30px] text-xs">BADDEST SILVER SIGNATURE</h1></div>
        </div>
        <div className="justify-center items-center flex gap-5">
-       <div className="flex md:gap-5 gap-2 text-white md:text-[20px] text-sm">
+       <div className="flex md:gap-5 gap-1 text-white md:text-[20px] text-xs">
         <a className="hover:text-red-600" href="#\">Home</a>
         <a className="hover:text-red-600" href="#">Services</a>
         <a className="hover:text-red-600" href="/Pricelist">Pricelist</a>
@@ -20,7 +20,7 @@ const Header = () => {
 
        </div> */}
        <div className="">
-                <button className="hover:bg-slate-300 md:w-40 md:h-10 w-16 h-10 rounded-lg border border-black justify-center items-center flex cursor-pointer md:text-lg text-sm bg-yellow-600 text-black"><a href="#">Book Now</a></button>
+                <button className="hover:bg-slate-300 md:w-40 md:h-10 w-10 h-9 rounded-lg border border-black justify-center items-center flex cursor-pointer md:text-lg text-xs bg-yellow-600 text-black"><a href="#">Book Now</a></button>
         </div>
        </div>
        </div>

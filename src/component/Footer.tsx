@@ -5,31 +5,31 @@ import { IoIosCall } from 'react-icons/io'
 
 const Footer = () => {
   return (
-    <div className='w-full md:h-[50vh] h-[35vh] bg-black justify-center items-center flex pt-3'>
-        <div className='flex w-[98%] h-[98%] md:text-lg text-xs'>
-            <div className='md:w-[25%] w-[20%] h-[98%] text-yellow-500'>
-            <h1 className='text-xl font-mono pb-3'>Company</h1>
+    <div className='w-full md:h-[50vh] h-[90vh] bg-black justify-center items-center flex pt-3 pl-3'>
+        <div className='flex w-[98%] h-[98%] flex-col md:flex-row md:text-lg text-sm'>
+            <div className='md:w-[25%] h-[98%] text-yellow-500'>
+            <h1 className='text-xl font-mono md:pb-3'>Company</h1>
             <p className='pt-2'>Home</p>
             <p className='pt-2'>About us</p>
             <p className='pt-2'>Services</p>
             <p className='pt-2'>Blog</p>
             </div>
-            <div className='md:w-[25%] w-[20%] h-[98%] text-yellow-500'>
-            <h1 className='text-xl font-mono pb-3'>Products</h1>
+            <div className='md:w-[25%] h-[98%] text-yellow-500'>
+            <h1 className='text-xl font-mono md:pb-3'>Products</h1>
             <p className='pt-2'>E-commerce</p>
             <p className='pt-2'>Advertisement</p>
             <p className='pt-2'>Privacy policy</p>
             <p className='pt-2'>Terms of use</p>
             </div>
-            <div className='md:w-[25%] w-[20%] h-[98%] text-yellow-500'>
-            <h1 className='text-xl font-mono pb-3'>Resources</h1>
+            <div className='md:w-[25%] h-[98%] text-yellow-500'>
+            <h1 className='text-xl font-mono md:pb-3'>Resources</h1>
             <p className='pt-2'>Pricing</p>
             <p className='pt-2'>Support</p>
             <p className='pt-2'>Privacy policy</p>
             <p className='pt-2'>Terms of use</p>
             </div>
-            <div className='md:w-[25%] w-[40%] h-[98%] text-yellow-500'>
-                <h1 className='text-xl font-mono pb-3'>Contact</h1>
+            <div className='md:w-[25%] h-[98%] text-yellow-500'>
+                <h1 className='text-xl font-mono md:pb-3'>Contact</h1>
                 <div className='flex justify-start items-center gap-2 pt-2'>
                 <CgMail size={20} color='white' />
                 <p>Baddestsilversignature@gmail.com</p>

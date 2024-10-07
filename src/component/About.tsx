@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagramSquare, FaSnapchatSquare, FaTiktok, } from "reac
 const About = () => {
   return (
     <div>
-        <div className='w-full md:h-[100vh] h-[70vh]'>
+        <div className='w-full md:h-[100vh] h-[100%]'>
             <div className="justify-center md:pt-16 pt-5 flex"><img className="md:w-[300px] w-[200px]" src={logo} alt="" /></div>
             <div className="md:pt-10 pt-4 justify-center">
                 <h1 className="font-medium font-mono md:text-[30px] text-lg justify-center items-center flex">Experience the Luxury of personalized beauty at Baddest Silver Signature</h1>
