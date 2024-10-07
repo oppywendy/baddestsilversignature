@@ -10,9 +10,9 @@ const Header = () => {
        </div>
        <div className="justify-center items-center flex gap-5">
        <div className="flex md:gap-5 gap-2 text-white md:text-[20px] text-sm">
-        <a className="hover:text-red-600" href="#">Home</a>
+        <a className="hover:text-red-600" href="#\">Home</a>
         <a className="hover:text-red-600" href="#">Services</a>
-        <a className="hover:text-red-600" href="#">Pricelist</a>
+        <a className="hover:text-red-600" href="/Pricelist">Pricelist</a>
         <a className="hover:text-red-600" href="#">Gallery</a>
        </div>
        {/* <div className="hover:bg-slate-300 bg-yellow-600 rounded-lg">

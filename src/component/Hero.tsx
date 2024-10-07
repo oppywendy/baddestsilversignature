@@ -6,7 +6,7 @@ import { GiMorgueFeet } from "react-icons/gi"
 
 const Hero = () => {
   return (
-    <div className="pt-5 w-full md:h-[125vh] h-[72vh] flex-wrap">
+    <div className="pt-5 w-full md:h-[125vh] h-[72vh] flex-wrap overflow-hidden">
           <div className='bg-cover bg-center md:h-screen h-[50vh] w-full bg-[#333] bg-opacity-50 bg-blend-overlay' style={{backgroundImage: `url(${pic})`}}>
         <div className='w-[100%] md:h-[100%] h-[50vh] bg-transparent md:ml-8 ml-4 items-center flex'>
             <div className='w-[90%] h-[90%] text-white'>
