@@ -6,7 +6,7 @@ const Header = () => {
        <div className='w-[95%] h-[9vh] flex items-center justify-between'>
        <div className='flex md:gap-10 gap-2 items-center'>
        <div className="md:w-28 w-20"><img src={logo} alt="logo" /></div>
-       <div><h1 className="font-medium text-black md:text-[30px] text-xs">BADDEST SILVER SIGNATURE</h1></div>
+       <div><h1 className="font-medium text-black md:text-[30px] text-[9px]">BADDEST SILVER SIGNATURE</h1></div>
        </div>
        <div className="justify-center items-center flex gap-5">
        <div className="flex md:gap-5 gap-1 text-white md:text-[20px] text-xs">

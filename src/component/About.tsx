@@ -1,6 +1,7 @@
 import { FaXTwitter } from "react-icons/fa6"
 import logo from "../assets/bs_logo_color.png"
-import { FaFacebook, FaInstagramSquare, FaSnapchatSquare, FaTiktok, } from "react-icons/fa"
+import { FaFacebook, FaInstagramSquare, FaTiktok, } from "react-icons/fa"
+import { IoLogoSnapchat } from "react-icons/io"
 
 const About = () => {
   return (
@@ -16,7 +17,7 @@ const About = () => {
             <div className="flex md:gap-5 gap-2 md:pt-10 pt-3 justify-center items-center">
               <div> <a href="https://www.instagram.com/baddest_silver?igsh=MWF5YXlibGtyaG43eA=="><FaInstagramSquare size={30} color="red" className="cursor-pointer" /></a></div>
               <div><a href="https://www.tiktok.com/@baddestsilver?_t=8q1ybbvsUw2&_r=1"><FaTiktok size={30} color="black" className="cursor-pointer" /></a></div>
-              <div><a href="https://snapchat.com/t/kOohVarU"><FaSnapchatSquare size={30} color="yellow" className="cursor-pointer" /></a></div>
+              <div><a href="https://snapchat.com/t/kOohVarU"><IoLogoSnapchat size={30} color="gold" className="cursor-pointer" /></a></div>
               <div><a href="https://www.facebook.com/alhaji.silver?mibextid=JRoKGi"><FaFacebook size={30} color="blue" className="cursor-pointer" /></a></div>
               <div><a href=""><FaXTwitter size={30} color="black" className="cursor-pointer"  /></a></div>
             </div>
