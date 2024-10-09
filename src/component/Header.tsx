@@ -20,7 +20,7 @@ const Header = () => {
 
        </div> */}
        <div className="">
-                <button className="hover:bg-slate-300 md:w-40 md:h-10 w-10 h-9 rounded-lg border border-black justify-center items-center flex cursor-pointer md:text-lg text-xs bg-yellow-600 text-black"><a href="#">Book Now</a></button>
+                <button  className="hover:bg-slate-300 md:w-40 md:h-10 w-10 h-9 rounded-lg border border-black justify-center items-center flex cursor-pointer md:text-lg text-xs bg-yellow-600 text-black"><a href="https://wa.me/2349021345423">Book Now</a></button>
         </div>
        </div>
        </div>
