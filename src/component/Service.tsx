@@ -21,7 +21,7 @@ const Service = () => {
                         <p className="text-yellow-500">5.0</p>
                        </div>
                        <p className="text-[25px] font-bold pl-4 md:pt-2 text-white">Haircut</p>
-                       <div className='pt-3 justify-center flex'><button className='w-40 h-7 rounded-lg border border-black hover:bg-slate-300 justify-center items-center flex cursor-pointer bg-yellow-500 text-black'>BOOK NOW</button></div>
+                       <div className='pt-3 justify-center flex'><button className='w-40 h-7 rounded-lg border border-black hover:bg-slate-300 justify-center items-center flex cursor-pointer bg-yellow-500 text-black'><a href="https://wa.me/2349091737314">BOOK NOW</a></button></div>
 
                        </div>
                     </div>
@@ -35,7 +35,7 @@ const Service = () => {
                         <p className="text-yellow-500">5.0</p>
                        </div>
                        <p className="text-[25px] font-bold pl-4 md:pt-2 text-white">Hair Color</p>
-                       <div className='pt-3 justify-center flex'><button className='w-40 h-7 rounded-lg border border-black hover:bg-slate-300 justify-center items-center flex cursor-pointer bg-yellow-500 text-black'>BOOK NOW</button></div>
+                       <div className='pt-3 justify-center flex'><button className='w-40 h-7 rounded-lg border border-black hover:bg-slate-300 justify-center items-center flex cursor-pointer bg-yellow-500 text-black'><a href="https://wa.me/2349091737314">BOOK NOW</a></button></div>
 
                        </div>
                     </div>
@@ -48,7 +48,7 @@ const Service = () => {
                         <p className="text-yellow-500">5.0</p>
                        </div>
                        <p className="text-[25px] font-bold pl-4 md:pt-2 text-white">Hair Sketch</p>
-                       <div className='pt-3 justify-center flex'><button className='w-40 h-7 rounded-lg border border-black hover:bg-slate-300 justify-center items-center flex cursor-pointer bg-yellow-500 text-black'>BOOK NOW</button></div>
+                       <div className='pt-3 justify-center flex'><button className='w-40 h-7 rounded-lg border border-black hover:bg-slate-300 justify-center items-center flex cursor-pointer bg-yellow-500 text-black'><a href="https://wa.me/2349091737314">BOOK NOW</a></button></div>
 
                        </div>
                     </div>
@@ -62,7 +62,7 @@ const Service = () => {
                         <p className="text-yellow-500">5.0</p>
                        </div>
                        <p className="text-[25px] font-bold pl-4 md:pt-2 text-white">Pedicure</p>
-                       <div className='pt-3 justify-center flex'><button className='w-40 h-7 rounded-lg border border-black hover:bg-slate-300 justify-center items-center flex cursor-pointer bg-yellow-500 text-black'>BOOK NOW</button></div>
+                       <div className='pt-3 justify-center flex'><button className='w-40 h-7 rounded-lg border border-black hover:bg-slate-300 justify-center items-center flex cursor-pointer bg-yellow-500 text-black'><a href="https://wa.me/2349091737314">BOOK NOW</a></button></div>
 
                        </div>
                     </div>
@@ -76,7 +76,7 @@ const Service = () => {
                         <p className="text-yellow-500">5.0</p>
                        </div>
                        <p className="text-[25px] font-bold pl-4 md:pt-2 text-white">Manicure</p>
-                       <div className='pt-3 justify-center flex'><button className='w-40 h-7 rounded-lg border border-black hover:bg-slate-300 justify-center items-center flex cursor-pointer bg-yellow-500 text-black'>BOOK NOW</button></div>
+                       <div className='pt-3 justify-center flex'><button className='w-40 h-7 rounded-lg border border-black hover:bg-slate-300 justify-center items-center flex cursor-pointer bg-yellow-500 text-black'><a href="https://wa.me/2349091737314">BOOK NOW</a></button></div>
 
                        </div>
                     </div>
@@ -90,7 +90,7 @@ const Service = () => {
                         <p className="text-yellow-500">5.0</p>
                        </div>
                        <p className="text-[25px] md:font-bold md:pl-4 pl-2 md:pt-2 text-white">Home Service</p>
-                       <div className='pt-3 justify-center flex'><button className='w-40 h-7 rounded-lg border border-black hover:bg-slate-300 justify-center items-center flex cursor-pointer bg-yellow-500 text-black'>BOOK NOW</button></div>
+                       <div className='pt-3 justify-center flex'><button className='w-40 h-7 rounded-lg border border-black hover:bg-slate-300 justify-center items-center flex cursor-pointer bg-yellow-500 text-black'><a href="https://wa.me/2349091737314">BOOK NOW</a></button></div>
 
                        </div>
                     </div>

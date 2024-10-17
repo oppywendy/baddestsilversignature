@@ -36,7 +36,7 @@ const Footer = () => {
                 </div>
                 <div className='flex justify-start items-center gap-2 pt-2'>
                 <FaWhatsapp size={20} color='white' />
-                <p>+23490737314</p>
+                <p>+2349091737314</p>
                 </div>
                 <div className='flex justify-start items-center gap-2 pt-2'>
                 <IoIosCall size={20} color='white' />

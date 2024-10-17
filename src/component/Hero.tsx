@@ -14,7 +14,7 @@ const Hero = () => {
                 <h1 className='md:pt-80 mt-14 font-medium md:text-4xl text-2xl'>Welcome to Baddest Silver Signature</h1>
                 <p className='md:pt-3 pt-1 md:text-lg text-xs'>We believe in providing our customers with the best haircuts and services. Our team of skilled barbers and stylists work tirelessly to make each client's experience a memorable one.</p>
                 <div className="gap-10 flex md:mt-3 mt-2">
-                <button className="hover:bg-slate-300 md:w-56 md:h-14 w-36 h-10 rounded-lg border border-black justify-center items-center flex cursor-pointer bg-orange-400 text-black">Book Appointment</button>
+                <button className="hover:bg-slate-300 md:w-56 md:h-14 w-36 h-10 rounded-lg border border-black justify-center items-center flex cursor-pointer bg-orange-400 text-black"><a href="https://wa.me/2349091737314">Book Appointment</a></button>
                 </div>
 
                 </div>
