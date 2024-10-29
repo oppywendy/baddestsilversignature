@@ -21,6 +21,7 @@ import agbo from "../assets/agbo.jpg";
 import color from "../assets/bss colors.jpg";
 import color2 from "../assets/bss_color.jpg";
 import sketch from "../assets/bss_sketch.jpg";
+import lining from "../assets/bss_lining.jpg";
 import customer from "../assets/bss customer 2.jpg";
 import p4 from "../assets/home Service.jpg";
 import lawi from "../assets/lawi.jpg";
@@ -52,13 +53,16 @@ import two5 from "../assets/25.jpg";
 import two6 from "../assets/26.jpg";
 import two7 from "../assets/27.jpg";
 import two8 from "../assets/28.jpg";
+import two9 from "../assets/29.jpg";
 import thirty from "../assets/30.jpg";
 import three1 from "../assets/31.jpg";
+import three2 from "../assets/32.jpg";
+import three3 from "../assets/33.jpg";
 
 const Photos = () => {
   return (
     <div>
-      <h1 className="font-bold text-center md:text-5xl text-3xl md:pt-36 pt-20 pb-5 md:pb-11">
+      <h1 className="font-bold text-center md:text-5xl text-3xl md:pt-36 pt-20 pb-5 md:pb-10">
         OUR GALLERY
       </h1>
       <div className="w-full max-h-full justify-center items-center flex">
@@ -342,6 +346,26 @@ const Photos = () => {
             <img
               className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={two5}
+              alt=""
+            />
+            <img
+              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              src={two9}
+              alt=""
+            />
+            <img
+              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              src={lining}
+              alt=""
+            />
+            <img
+              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              src={three2}
+              alt=""
+            />
+            <img
+              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              src={three3}
               alt=""
             />
           </div>
