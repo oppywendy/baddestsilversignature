@@ -58,7 +58,7 @@ import three1 from "../assets/31.jpg";
 const Photos = () => {
   return (
     <div>
-      <h1 className="font-bold text-center md:text-5xl text-3xl md:pt-36 pt-20 pb-5 md:pb-10">
+      <h1 className="font-bold text-center md:text-5xl text-3xl md:pt-36 pt-20 pb-5 md:pb-11">
         OUR GALLERY
       </h1>
       <div className="w-full max-h-full justify-center items-center flex">
