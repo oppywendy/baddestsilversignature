@@ -1,161 +1,97 @@
-
+import { TbCurrencyNaira } from "react-icons/tb";
 
 const Pricelist = () => {
-    return (
-      <div className="bg-neutral-900 text-white h-[350vh] w-full justify-center items-center flex">
-          <div className=" w-[96%] h-[96%]">
-          <h1 className=" md:text-6xl text-4xl font-semibold md:pb-10 pb-5 md:pt-20 pt-5 text-center text-yellow-500">OUR PRICING</h1>
-          <p className="text-center md:text-xl text-sm font-light">At Baddest Silver Signature, we strive to offer the best service at the most affordable prices. Our prices are based on the highest quality materials and the most efficient manufacturing processes. We are committed to providing exceptional customer service and satisfaction.</p>
-          <div className="pt-10 md:pl-60 pl-2 flex items-center">
-          <table className="">
-            <tr className="md:text-4xl text-2xl font-semibold text-yellow-500">
-              <th>VIP SECTION</th>
-              <th className="md:pl-20 pl-10">PRICE (NAIRA)</th>
-            </tr>
-            <tr className=" text-2xl">
-             <td className="pt-5">Haircut</td>
-             <td className="pt-5 pl-20">10,000</td>
-            </tr>
-            <tr className=" text-2xl">
-             <td className="pt-2">Haircut With Enhancement</td>
-             <td className="pl-20 pt-2">15,000</td>
-            </tr>
-            <tr className="text-2xl">
-             <td className="pt-2">Black Dye</td>
-             <td className="pl-20 pt-2">10,000</td>
-            </tr>
-            <tr className="text-2xl">
-              <td className="pt-2">Relaxer</td>
-              <td className="pl-20 pt-2">10,000</td>
-            </tr>
-            <tr className="text-2xl">
-              <td className="pt-2">One Hour Sketch</td>
-              <td className="pl-20 pt-2">10,000</td>
-            </tr>
-            <tr className="text-2xl">
-              <td className="pt-2">Friction</td>
-              <td className="pl-20 pt-2">5,000</td>
-            </tr>
-            <tr className="text-2xl">
-              <td className="pt-2">Home Service</td>
-              <td className="pl-20 pt-2">50,000</td>
-            </tr>
-            <tr className="text-2xl">
-              <td className="pt-2">Home Service With Color</td>
-              <td className="pl-20 pt-2">100,000</td>
-            </tr>
-          </table>
-          </div>
-  
-           
-          <div className="md:pt-20 pt-10 md:pl-60 pl-2 flex items-center">
-            <table className="">
-            <tr className="md:text-4xl text-2xl font-semibold text-yellow-500">
-              <th>STANDARD SECTION</th>
-              <th className="md:pl-20 pl-5">PRICE (NAIRA)</th>
-            </tr>
-            <tr className="text-2xl">
-              <td className="pt-5">Male Haircut</td>
-              <td className="pt-5 pl-20">7,000</td>
-            </tr>
-            <tr className=" text-2xl">
-              <td className="pt-5">Female Haircut</td>
-              <td className="pt-5 pl-20">8,000</td>
-            </tr>
-            <tr className="text-2xl">
-              <td className="pt-5">Kid Haircut</td>
-              <td className="pt-5 pl-20">7,000</td>
-            </tr>
-            <tr className="text-2xl">
-              <td className="pt-5">Haircut With Enhancement</td>
-              <td className="pt-5 pl-20">10,000</td>
-            </tr>
-            <tr className="text-2xl">
-              <td className="pt-5">Friction</td>
-              <td className="pt-5 pl-20">4,000</td>
-            </tr>
-            <tr className=" text-2xl">
-              <td className="pt-5">Black Dye</td>
-              <td className="pt-5 pl-20">7,000</td>
-            </tr>
-            <tr className="text-2xl">
-              <td className="pt-5">Black Dye Full Hair</td>
-              <td className="pt-5 pl-20">10,000</td>
-            </tr>
-            <tr className="text-2xl">
-              <td className="pt-5">Black Dye Short Dread</td>
-              <td className="pt-5 pl-20">10,000</td>
-            </tr>
-            <tr className="text-2xl">
-              <td className="pt-5">Black Dye Long Dread</td>
-              <td className="pt-5 pl-20">15,000</td>
-            </tr>
-            <tr className="text-2xl">
-              <td className="pt-5">Black Dye Full Long Hair</td>
-              <td className="pt-5 pl-20">20,000</td>
-            </tr>
-            <tr className="text-2xl">
-              <td className="pt-5">Relaxer</td>
-              <td className="pt-5 pl-20">8,000</td>
-            </tr>
-            <tr className="text-2xl">
-              <td className="pt-5">Tint/Bleach/Blonde</td>
-              <td className="pt-5 pl-20">20,000</td>
-            </tr>
-            <tr className="text-2xl">
-              <td className="pt-5">Tint/Bleach/Blonde Full Hair</td>
-              <td className="pt-5 pl-20">30,000</td>
-            </tr>
-            <tr className="text-2xl">
-              <td className="pt-5">Tint/Bleach/Blonde Full Long Hair</td>
-              <td className="pt-5 pl-20">40,000</td>
-            </tr>
-            <tr className="text-2xl">
-              <td className="pt-5">Other Colors</td>
-              <td className="pt-5 pl-20">30,000</td>
-            </tr>
-            <tr className="text-2xl">
-              <td className="pt-5">Other Colors Full Hair</td>
-              <td className="pt-5 pl-20">40,000</td>
-            </tr>
-            <tr className=" text-2xl">
-              <td className="pt-5">Other Colors Full Long Hair</td>
-              <td className="pt-5 pl-20">60,000</td>
-            </tr>
-            <tr className=" text-2xl">
-              <td className="pt-5">One Hour Sketch</td>
-              <td className="pt-5 pl-20">10,000</td>
-            </tr>
-            <tr className="text-2xl">
-              <td className="pt-5">Home Service (Haircut)</td>
-              <td className="pt-5 pl-20">50,000</td>
-            </tr>
-            <tr className="text-2xl">
-              <td className="pt-5">Home Service (Haircut)</td>
-              <td className="pt-5 pl-20">50,000</td>
-            </tr>
-            <tr className="text-2xl">
-              <td className="pt-5">Home Service With Color (Haircut)</td>
-              <td className="pt-5 pl-20">100,000</td>
-            </tr>
-            <tr className="text-2xl">
-              <td className="pt-5">Pedicure</td>
-              <td className="pt-5 pl-20">10,000</td>
-            </tr>
-            <tr className="text-2xl">
-              <td className="pt-5">Manicure</td>
-              <td className="pt-5 pl-20">5,000</td>
-            </tr>
-            <tr className="text-2xl">
-              <td className="pt-5">Home Service (Pedicure)</td>
-              <td className="pt-5 pl-20">50,000</td>
-            </tr>
-  
-            </table>
-          </div>
-          </div>
+  const sections = [
+    {
+      title: "VIP SECTION",
+      services: [
+        { service: "Haircut", price: "10,000" },
+        { service: "Haircut With Enhancement", price: "15,000" },
+        { service: "Black Dye", price: "10,000" },
+        { service: "Relaxer", price: "10,000" },
+        { service: "One Hour Sketch", price: "10,000" },
+        { service: "Friction", price: "5,000" },
+        { service: "Home Service", price: "50,000" },
+        { service: "Home Service With Color", price: "100,000" },
+      ],
+    },
+    {
+      title: "STANDARD",
+      services: [
+        { service: "Male Haircut", price: "7,000" },
+        { service: "Female Haircut", price: "8,000" },
+        { service: "Kid Haircut", price: "7,000" },
+        { service: "Haircut With Enhancement", price: "10,000" },
+        { service: "Friction", price: "4,000" },
+        { service: "One Hour Sketch", price: "10,000" },
+        { service: "Home Service (Haircut)", price: "50,000" },
+        { service: "Pedicure", price: "10,000" },
+        { service: "Manicure", price: "5,000" },
+        { service: "Home Service (Pedicure)", price: "50,000" },
+      ],
+    },
+    {
+      title: "HAIR COLOR",
+      services: [
+        { service: "Black Dye", price: "7,000" },
+        { service: "Black Dye Full Hair", price: "10,000" },
+        { service: "Black Dye Short Dread", price: "10,000" },
+        { service: "Black Dye Long Dread", price: "15,000" },
+        { service: "Black Dye Full Long Hair", price: "20,000" },
+        { service: "Relaxer", price: "8,000" },
+        { service: "Tint/Bleach/Blonde", price: "20,000" },
+        { service: "Tint/Bleach/Blonde Full Hair", price: "30,000" },
+        { service: "Tint/Bleach/Blonde Full Long Hair", price: "40,000" },
+        { service: "Other Colors", price: "30,000" },
+        { service: "Other Colors Full Hair", price: "40,000" },
+        { service: "Other Colors Full Long Hair", price: "60,000" },
+      ],
+    },
+  ];
+
+  return (
+    <div className="text-black w-full min-h-screen flex justify-center items-center p-10">
+      <div className="w-full max-w-7xl space-y-10 mt-16">
+        {/* Header Section */}
+        <div className="text-center">
+          <h1 className="text-4xl md:text-6xl font-bold mb-5">OUR PRICING</h1>
+          <p className="text-sm md:text-xl font-light leading-relaxed">
+            At Baddest Silver Signature, we strive to offer the best services at
+            the most affordable prices. Our prices reflect premium quality and
+            efficiency to ensure exceptional customer satisfaction.
+          </p>
+        </div>
+
+        {/* Pricing Sections */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+          {sections.map((section, index) => (
+            <div
+              key={index}
+              className="border border-yellow-500 rounded-lg shadow-lg p-8 bg-white hover:scale-105 transform transition-all duration-300"
+            >
+              <h2 className="text-3xl font-semibold text-center mb-5">
+                {section.title}
+              </h2>
+              <ul className="space-y-4">
+                {section.services.map((item, idx) => (
+                  <li
+                    key={idx}
+                    className="flex justify-between text-xl items-center"
+                  >
+                    <span className="text-base">{item.service}</span>
+                    <span className="flex text-base items-center gap-1">
+                      <TbCurrencyNaira size={25} />
+                      {item.price}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
       </div>
-    )
-  }
-  
-  export default Pricelist
+    </div>
+  );
+};
+
+export default Pricelist;
