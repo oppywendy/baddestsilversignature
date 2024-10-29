@@ -21,7 +21,6 @@ import agbo from "../assets/agbo.jpg";
 import color from "../assets/bss colors.jpg";
 import color2 from "../assets/bss_color.jpg";
 import sketch from "../assets/bss_sketch.jpg";
-import lining from "../assets/bss_lining.jpg";
 import customer from "../assets/bss customer 2.jpg";
 import p4 from "../assets/home Service.jpg";
 import lawi from "../assets/lawi.jpg";
@@ -53,7 +52,6 @@ import two5 from "../assets/25.jpg";
 import two6 from "../assets/26.jpg";
 import two7 from "../assets/27.jpg";
 import two8 from "../assets/28.jpg";
-import two9 from "../assets/29.jpg";
 import thirty from "../assets/30.jpg";
 import three1 from "../assets/31.jpg";
 
