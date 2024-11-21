@@ -17,7 +17,7 @@ const Training = () => {
                 <h1 className="h-[50%] lg:text-5xl md:text-5xl text-lg text-center font-bold justify-center grid">
                   Enrol for your Training session
                 </h1>
-                <div className="h-[50%] justify-center items-start grid lg:pt-10 md:pt-5 pt-1">
+                <div className="h-[50%] justify-center items-start grid lg:pt-10 md:pt-5">
                   <button className="lg:w-48 md:w-44 w-24 lg:h-12 md:h-16 h-8 rounded-r-full rounded-l-full border border-black hover:bg-yellow-700 justify-center items-center flex cursor-pointer bg-[#EAB308] text-black md:text-2xl">
                     <a href="https://wa.me/2349091737314">Sign Up</a>
                     <div className="pl-2 justify-center items-center flex">
