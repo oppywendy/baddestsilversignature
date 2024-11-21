@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="md:h-[15vh] h-[8vh] w-full flex justify-center items-center text-yellow-500 bg-black fixed z-50">
+    <div className="lg:h-[15vh] md:h-[10vh] h-[8vh] w-full flex justify-center items-center text-yellow-500 bg-black fixed z-50">
       <div className="w-[95%] h-[9vh] flex items-center justify-between">
         <div className="flex gap-2 items-center">
           <div className="md:w-28 w-20">
             <img src={logo} alt="logo" />
           </div>
           <div>
-            <h1 className="font-medium md:text-[30px] text-[9px]">
+            <h1 className="font-medium lg:text-[30px] md:text-[20px] text-[9px]">
               BADDEST SILVER SIGNATURE
             </h1>
           </div>

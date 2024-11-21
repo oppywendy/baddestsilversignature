@@ -67,7 +67,7 @@ const Photos = () => {
       </h1>
       <div className="w-full max-h-full justify-center items-center flex">
         <div className="w-[98%] h-[96%]">
-          <div className="grid md:grid-cols-4 grid-cols-1 items-center justify-center">
+          <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 items-center justify-center mb-10">
             <img
               className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={davido}

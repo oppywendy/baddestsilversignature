@@ -6,26 +6,50 @@ import { IoLogoSnapchat } from "react-icons/io";
 const About = () => {
   return (
     <div>
-      <div className="w-full md:h-[100vh] h-[70vh]">
+      <div className="w-full max-h-full">
         <div className="justify-center md:pt-16 pt-5 flex">
           <img className="md:w-[300px] w-[200px]" src={logo} alt="" />
         </div>
         <div className="md:pt-10 pt-4 justify-center">
-          <h1 className="font-medium font-mono md:text-[30px] text-lg justify-center items-center flex">
+          <h1 className="font-medium font-mono md:text-[30px] text-lg pl-2 md:justify-center items-center flex">
             Experience the Luxury of personalized beauty at Baddest Silver
             Signature
           </h1>
-          <p className="font-medium font-mono md:text-[30px] text-lg justify-center items-center flex">
+          <p className="font-medium font-mono md:text-[30px] text-lg pl-2 md:justify-center items-center flex">
             Discover the difference a touch of perfection can make
           </p>
-          <p className="font-medium font-mono md:text-[30px] text-lg justify-center items-center flex">
+          <p className="font-medium font-mono md:text-[30px] text-lg pl-2 md:justify-center items-center flex">
             We are located at Pacific Mall Ilasan
           </p>
-          <p className="font-medium font-mono md:text-[30px] text-lg justify-center items-center flex">
+          <p className="font-medium font-mono md:text-[30px] text-lg pl-2 md:justify-center items-center flex">
             32 Ilasan new road Lekki Lagos
           </p>
+          <p className="font-medium font-mono md:text-[40px] text-lg justify-center items-center flex pt-5 pb-3 underline">
+            Working Hours
+          </p>
+          <p className="font-medium font-mono md:text-[25px] text-lg justify-center items-center flex">
+            Monday Off day
+          </p>
+          <p className="font-medium font-mono md:text-[25px] text-lg justify-center items-center flex">
+            Tuesday 9:00am - 8:00pm
+          </p>
+          <p className="font-medium font-mono md:text-[25px] text-lg justify-center items-center flex">
+            Wednesday 9:00am - 8:00pm
+          </p>
+          <p className="font-medium font-mono md:text-[25px] text-lg justify-center items-center flex">
+            Thursday 9:00am - 8:00pm
+          </p>
+          <p className="font-medium font-mono md:text-[25px] text-lg justify-center items-center flex">
+            Friday 9:00am - 8:00pm
+          </p>
+          <p className="font-medium font-mono md:text-[25px] text-lg justify-center items-center flex">
+            Saturday 9:00am - 8:00pm
+          </p>
+          <p className="font-medium font-mono md:text-[25px] text-lg justify-center items-center flex">
+            Sunday 9:00am - 8:00pm
+          </p>
         </div>
-        <div className="flex md:gap-5 gap-2 md:pt-10 pt-3 justify-center items-center">
+        <div className="flex md:gap-5 gap-2 md:pt-5 pt-3 justify-center items-center pb-10">
           <div>
             {" "}
             <a href="https://www.instagram.com/baddest_silver?igsh=MWF5YXlibGtyaG43eA==">

@@ -54,7 +54,9 @@ const Pricelist = () => {
       <div className="w-full max-w-7xl space-y-10 mt-16">
         {/* Header Section */}
         <div className="text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-5">OUR PRICING</h1>
+          <h1 className="text-4xl md:text-6xl md:mt-10 font-bold mb-5">
+            OUR PRICING
+          </h1>
           <p className="text-sm md:text-xl font-light leading-relaxed">
             At Baddest Silver Signature, we strive to offer the best services at
             the most affordable prices. Our prices reflect premium quality and
@@ -63,7 +65,7 @@ const Pricelist = () => {
         </div>
 
         {/* Pricing Sections */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
           {sections.map((section, index) => (
             <div
               key={index}

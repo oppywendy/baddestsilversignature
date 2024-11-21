@@ -5,27 +5,29 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const Training = () => {
   return (
-    <div className="w-full md:h-[120vh] h-[200vh] bg-[#F8FAFD] justify-center items-center flex">
+    <div className="w-full max-h-full bg-[#F8FAFD] justify-center items-center flex">
       <div className="w-[96%] h-[98%]">
-        <h1 className="font-bold md:text-5xl text-3xl font-serif text-center md:pt-5">
-          Grooming Experience
+        <h1 className="font-medium lg:text-5xl md:text-4xl text-3xl font-serif text-center lg:pt-5 md:pt-4 pt-3">
+          GROOMING EXPERIENCE
         </h1>
-        <div className="md:justify-center md:items-center md:pt-7 flex h-[98%]">
-          <div className=" w-[98%] md:h-[85%] h-[98%] flex justify-center items-center flex-col-reverse md:flex-row">
-            <div className="md:w-[30%] w-full md:h-[98%] pt-5 flex-wrap items-center md:grid md:grid-cols-2 flex">
-              <h1 className="font-extralight md:text-5xl text-4xl">
-                Enrol for your Training session
-              </h1>
-              <div className=" md:pt-14 pt-5">
-                <button className="w-48 h-12 rounded-r-full rounded-l-full border border-black hover:bg-yellow-700 justify-center items-center flex cursor-pointer bg-[#EAB308] text-black">
-                  <a href="https://wa.me/2349091737314">Sign Up</a>
-                  <div className="pl-2 justify-center items-center flex">
-                    <FaArrowRight />
-                  </div>
-                </button>
+        <div className="lg:justify-center lg:items-center lg:pt-7 flex h-[98%]">
+          <div className=" w-[100%] lg:h-[85%] h-[98%] flex justify-center items-center flex-col-reverse lg:flex-row">
+            <div className="lg:w-[30%] mb-5 w-full lg:h-[98%] md:h-[20vh] lg:pt-5 md:pt-5 pt-3 flex-wrap items-center grid">
+              <div className="h-[100%]">
+                <h1 className="h-[50%] lg:text-5xl md:text-5xl text-lg text-center font-bold justify-center items-end grid">
+                  Enrol for your Training session
+                </h1>
+                <div className="h-[50%] justify-center items-start grid lg:pt-10 md:pt-5 pt-3">
+                  <button className="lg:w-48 md:w-44 w-24 lg:h-12 md:h-16 h-8 rounded-r-full rounded-l-full border border-black hover:bg-yellow-700 justify-center items-center flex cursor-pointer bg-[#EAB308] text-black md:text-2xl">
+                    <a href="https://wa.me/2349091737314">Sign Up</a>
+                    <div className="pl-2 justify-center items-center flex">
+                      <FaArrowRight />
+                    </div>
+                  </button>
+                </div>
               </div>
             </div>
-            <div className="md:w-[70%] w-full md:h-[98%] h-[85%] pt-1 flex justify-center">
+            <div className="lg:w-[70%] w-full lg:h-[98%] h-[85%] pt-1 flex justify-center">
               <div className="flex flex-wrap w-[98%] h-[98%] justify-center md:gap-4 gap-2">
                 <img
                   className="md:w-[250px] w-[240px] md:h-[375px] h-[350px] md:mt-14 hover:scale-105 transform transition-all duration-300 cursor-pointer"

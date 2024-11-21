@@ -4,53 +4,59 @@ import skiibii from "../assets/bss_skiibii.jpg";
 import dbanj from "../assets/dbanj.jpg";
 import bnxn from "../assets/bss_bnxn.jpg";
 import djobi from "../assets/dj obi.jpg";
+import { Link } from "react-router-dom";
 
 const Gallery = () => {
   return (
-    <div className="w-full md:h-[140vh] h-[100%] bg-[#FBFBFB]">
+    <div className="w-full min-h-full bg-[#FBFBFB]">
       <div>
         <div>
-          <h1 className="text-center text-5xl font-serif md:pt-20 pt-10 mt-20">
+          <h1 className="text-center md:text-5xl text-3xl font-medium font-serif md:pt-20 pt-10">
             OUR GALLERY
           </h1>
         </div>
-        <div className=" w-full h-[100%] md:pt-20 mt-5 pb-10 flex flex-wrap md:gap-8 gap-1 justify-center items-center">
+        <div className=" w-full h-[100%] md:pt-20 mt-5 pb-10 flex flex-wrap lg:gap-8 md:gap-3 gap-1 justify-center items-center">
           <div>
             <img
-              className="md:w-[400px] w-[300px] md:h-[500px] h-[400px] rounded-xl border border-yellow-500 shadow-lg cursor-pointer hover:scale-105 transform transition-all duration-300"
+              className="lg:w-[400px] md:w-[380px] w-[300px] lg:h-[500px] md:h-[500px] h-[400px] rounded-xl border border-yellow-500 shadow-lg cursor-pointer hover:scale-105 transform transition-all duration-300"
               src={burna}
               alt=""
             />
           </div>
           <div>
             <img
-              className="md:w-[400px] w-[300px] md:h-[500px] h-[400px] rounded-xl border border-yellow-500 shadow-lg cursor-pointer hover:scale-105 transform transition-all duration-300"
+              className="lg:w-[400px] md:w-[380px] w-[300px] lg:h-[500px] md:h-[500px] h-[400px] rounded-xl border border-yellow-500 shadow-lg cursor-pointer hover:scale-105 transform transition-all duration-300"
               src={davido}
               alt=""
             />
           </div>
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-2 gap-3 pt-2 md:pt-0">
             <img
-              className="w-[200px] h-[250px] rounded-xl border border-yellow-500 shadow-lg cursor-pointer hover:scale-105 transform transition-all duration-300"
+              className="lg:w-[200px] md:w-[300px] w-[200px] lg:h-[250px] md:h-[400px] h-[250px] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform transition-all duration-300"
               src={skiibii}
               alt=""
             />
             <img
-              className="w-[200px] h-[250px] rounded-xl border border-yellow-500 shadow-lg cursor-pointer hover:scale-105 transform transition-all duration-300"
+              className="lg:w-[200px] md:w-[300px] w-[200px] lg:h-[250px] md:h-[400px] h-[250px] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform transition-all duration-300"
               src={bnxn}
               alt=""
             />
             <img
-              className="w-[200px] h-[250px] rounded-xl border border-yellow-500 shadow-lg cursor-pointer hover:scale-105 transform transition-all duration-300"
+              className="lg:w-[200px] md:w-[300px] w-[200px] lg:h-[250px] md:h-[400px] h-[250px] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform transition-all duration-300"
               src={dbanj}
               alt=""
             />
             <img
-              className="w-[200px] h-[250px] rounded-xl border border-yellow-500 shadow-lg cursor-pointer hover:scale-105 transform transition-all duration-300"
+              className="lg:w-[200px] md:w-[300px] w-[200px] lg:h-[250px] md:h-[400px] h-[250px] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform transition-all duration-300"
               src={djobi}
               alt=""
             />
           </div>
+        </div>
+        <div className="items-center justify-center flex pb-10">
+          <button className="md:w-48 w-24 md:h-12 h-8 rounded-r-full rounded-l-full border border-black hover:bg-yellow-700 justify-center items-center flex cursor-pointer bg-[#EAB308] text-black text-sm md:text-lg">
+            <Link to="/gallery">View more</Link>
+          </button>
         </div>
       </div>
     </div>
