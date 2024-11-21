@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const Training = () => {
   return (
-    <div className="w-full max-h-full bg-[#F8FAFD] justify-center items-center flex">
+    <div className="w-full max-h-full bg-[#F8FAFD] justify-center items-center flex mb-5">
       <div className="w-[96%] h-[98%]">
         <h1 className="font-medium lg:text-5xl md:text-4xl text-3xl font-serif text-center lg:pt-5 md:pt-4 pt-7">
           GROOMING EXPERIENCE
