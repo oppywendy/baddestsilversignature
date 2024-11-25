@@ -18,7 +18,7 @@ const Training = () => {
                   Enrol for your Training session
                 </h1>
                 <div className="md:h-[50%] justify-center md:items-start grid lg:pt-10 md:pt-5 pt-3">
-                  <button className="lg:w-48 md:w-44 w-24 lg:h-12 md:h-16 h-8 rounded-r-full rounded-l-full border border-black hover:bg-yellow-700 justify-center items-center flex cursor-pointer bg-[#EAB308] text-black md:text-2xl">
+                  <button className="lg:w-48 md:w-44 w-24 lg:h-12 md:h-16 h-8 rounded-r-full rounded-l-full border border-black hover:bg-blue-950 justify-center items-center flex cursor-pointer bg-black text-yellow-500 md:text-2xl">
                     <a href="https://wa.me/2349091737314">Sign Up</a>
                     <div className="pl-2 justify-center items-center flex">
                       <FaArrowRight />

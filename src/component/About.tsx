@@ -24,28 +24,30 @@ const About = () => {
           <p className="font-medium font-mono md:text-[30px] text-lg pl-2 md:justify-center items-center flex">
             32 Ilasan new road Lekki Lagos
           </p>
-          <p className="font-medium font-mono md:text-[40px] text-lg justify-center items-center flex pt-5 pb-3 underline">
+        </div>
+        <div className="w-[100%] justify-center items-center grid">
+          <h1 className="font-medium font-mono md:text-[40px] text-lg justify-center items-center flex pt-5 pb-3 underline">
             Working Hours
-          </p>
-          <p className="font-medium font-mono md:text-[25px] text-lg justify-center items-center flex">
+          </h1>
+          <p className="font-medium font-mono md:text-[25px] text-lg justify-start items-center flex">
             Monday Off day
           </p>
-          <p className="font-medium font-mono md:text-[25px] text-lg justify-center items-center flex">
+          <p className="font-medium font-mono md:text-[25px] text-lg justify-start items-center flex">
             Tuesday 9:00am - 8:00pm
           </p>
-          <p className="font-medium font-mono md:text-[25px] text-lg justify-center items-center flex">
+          <p className="font-medium font-mono md:text-[25px] text-lg justify-start items-center flex">
             Wednesday 9:00am - 8:00pm
           </p>
-          <p className="font-medium font-mono md:text-[25px] text-lg justify-center items-center flex">
+          <p className="font-medium font-mono md:text-[25px] text-lg justify-start items-center flex">
             Thursday 9:00am - 8:00pm
           </p>
-          <p className="font-medium font-mono md:text-[25px] text-lg justify-center items-center flex">
+          <p className="font-medium font-mono md:text-[25px] text-lg justify-start items-center flex">
             Friday 9:00am - 8:00pm
           </p>
-          <p className="font-medium font-mono md:text-[25px] text-lg justify-center items-center flex">
+          <p className="font-medium font-mono md:text-[25px] text-lg justify-start items-center flex">
             Saturday 9:00am - 8:00pm
           </p>
-          <p className="font-medium font-mono md:text-[25px] text-lg justify-center items-center flex">
+          <p className="font-medium font-mono md:text-[25px] text-lg justify-start items-center flex">
             Sunday 9:00am - 8:00pm
           </p>
         </div>

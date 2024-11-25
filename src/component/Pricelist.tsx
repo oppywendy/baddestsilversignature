@@ -3,7 +3,7 @@ import { TbCurrencyNaira } from "react-icons/tb";
 const Pricelist = () => {
   const sections = [
     {
-      title: "VIP SECTION",
+      title: "BADDEST SILVER",
       services: [
         { service: "Haircut", price: "10,000" },
         { service: "Haircut With Enhancement", price: "15,000" },

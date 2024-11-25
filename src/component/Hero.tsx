@@ -23,7 +23,7 @@ const Hero = () => {
                 tirelessly to make each client's experience a memorable one.
               </p>
               <div className="gap-10 flex md:mt-3 mt-2">
-                <button className="hover:bg-yellow-700 md:w-56 md:h-14 w-36 h-8 rounded-lg border border-black justify-center items-center flex cursor-pointer bg-orange-400 text-black">
+                <button className="hover:bg-yellow-700 md:w-56 md:h-14 w-36 h-8 rounded-lg border border-black justify-center items-center flex cursor-pointer bg-yellow-500 text-black">
                   <a href="https://wa.me/2349091737314">Book Appointment</a>
                 </button>
               </div>
@@ -33,28 +33,28 @@ const Hero = () => {
       </div>
       <div className="w-full h-[20vh] justify-center items-center flex">
         <div className="w-[20%] h-[90%] justify-center items-center flex">
-          <div className="w-20 h-20 bg-yellow-500 rounded-full justify-center items-center flex">
-            <FaCut size={50} />
+          <div className="md:w-20 w-16 md:h-20 h-16 bg-black rounded-full justify-center items-center flex">
+            <FaCut size={30} color="orange" />
           </div>
         </div>
         <div className="w-[20%] h-[90%] justify-center items-center flex">
-          <div className="w-20 h-20 bg-yellow-500 rounded-full justify-center items-center flex">
-            <GiMorgueFeet size={50} />
+          <div className="md:w-20 w-16 md:h-20 h-16 bg-black rounded-full justify-center items-center flex">
+            <GiMorgueFeet size={40} color="orange" />
           </div>
         </div>
         <div className="w-[20%] h-[90%] justify-center items-center flex">
-          <div className="w-20 h-20 bg-yellow-500 rounded-full justify-center items-center flex">
-            <SiShortcut size={45} />
+          <div className="md:w-20 w-16 md:h-20 h-16 bg-black rounded-full justify-center items-center flex">
+            <SiShortcut size={30} color="orange" />
           </div>
         </div>
         <div className="w-[20%] h-[90%] justify-center items-center flex">
-          <div className="w-20 h-20 bg-yellow-500 rounded-full justify-center items-center flex">
-            <PiHairDryerFill size={50} />
+          <div className="md:w-20 w-16 md:h-20 h-16 bg-black rounded-full justify-center items-center flex">
+            <PiHairDryerFill size={30} color="orange" />
           </div>
         </div>
         <div className="w-[20%] h-[90%] justify-center items-center flex">
-          <div className="w-20 h-20 bg-yellow-500 rounded-full justify-center items-center flex">
-            <FaHandsWash size={50} />
+          <div className="md:w-20 w-16 md:h-20 h-16 bg-black rounded-full justify-center items-center flex">
+            <FaHandsWash size={30} color="orange" />
           </div>
         </div>
       </div>

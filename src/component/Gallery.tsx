@@ -16,14 +16,14 @@ const Gallery = () => {
           </h1>
         </div>
         <div className=" w-full h-[100%] md:pt-20 mt-5 pb-10 flex flex-wrap lg:gap-8 md:gap-3 gap-1 justify-center items-center">
-          <div>
+          <div className="pb-5">
             <img
               className="lg:w-[400px] md:w-[380px] w-[300px] lg:h-[500px] md:h-[500px] h-[400px] rounded-xl border border-yellow-500 shadow-lg cursor-pointer hover:scale-105 transform transition-all duration-300"
               src={burna}
               alt=""
             />
           </div>
-          <div>
+          <div className="pb-3">
             <img
               className="lg:w-[400px] md:w-[380px] w-[300px] lg:h-[500px] md:h-[500px] h-[400px] rounded-xl border border-yellow-500 shadow-lg cursor-pointer hover:scale-105 transform transition-all duration-300"
               src={davido}
@@ -54,7 +54,7 @@ const Gallery = () => {
           </div>
         </div>
         <div className="items-center justify-center flex pb-10">
-          <button className="md:w-48 w-24 md:h-12 h-8 rounded-r-full rounded-l-full border border-black hover:bg-yellow-700 justify-center items-center flex cursor-pointer bg-[#EAB308] text-black text-sm md:text-lg">
+          <button className="md:w-48 w-24 md:h-12 h-8 rounded-r-full rounded-l-full border border-black hover:bg-blue-950 justify-center items-center flex cursor-pointer bg-black text-yellow-500 text-sm md:text-lg">
             <Link to="/gallery">View more</Link>
           </button>
         </div>

@@ -16,7 +16,7 @@ const Choose = () => {
             <li className="md:pt-5 pt-2">24/7 Customer Support</li>
           </ul>
           <div className="h-[20%] w-full justify-center items-center flex">
-            <button className="md:w-60 w-36 md:h-12 h-10 rounded-lg border border-black justify-center items-center flex cursor-pointer bg-yellow-500 hover:bg-yellow-700 text-black md:text-xl text-sm">
+            <button className="md:w-60 w-36 md:h-12 h-10 rounded-lg border border-black justify-center items-center flex cursor-pointer bg-black hover:bg-blue-950 text-yellow-500 md:text-xl text-sm">
               <a href="https://wa.me/2349091737314">Book Appointment</a>
             </button>
           </div>

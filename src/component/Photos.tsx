@@ -61,310 +61,310 @@ import three3 from "../assets/33.jpg";
 
 const Photos = () => {
   return (
-    <div>
-      <h1 className="font-bold text-center md:text-5xl text-3xl md:pt-36 pt-20 pb-5 md:pb-10">
+    <div className="bg-black">
+      <h1 className="font-bold text-center md:text-5xl text-3xl md:pt-36 pt-20 pb-5 md:pb-10 text-yellow-500">
         OUR GALLERY
       </h1>
       <div className="w-full max-h-full justify-center items-center flex">
         <div className="w-[98%] h-[96%]">
-          <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 items-center justify-center mb-10">
+          <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 items-center justify-center mb-10 gap-2">
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={davido}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={burnaboy}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={skiibii}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={buju}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={dbanj}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={djobi}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={dotun}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={kalu}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={asisat}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={e4ma}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={liquorose}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={ceo}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={oppy}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={kiki}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={dammy}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={zeus}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={yakiss}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={gent}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={seunwheel}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={agbo}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={color}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={color2}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={sketch}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={lawi}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={customer}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={p4}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={thirty}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={one}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={two}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={three}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={four}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={five}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={seven}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={nine}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={ten}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={thirteen}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={fourteen}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={fifteen}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={sixteen}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={seventeen}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={eighteen}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={ninteen}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={twenty}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={two1}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={two2}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={two4}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={two6}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={two7}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={two8}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={three1}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={six}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={eight}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={eleven}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={twelve}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={two3}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={two5}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={two9}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={lining}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={three2}
               alt=""
             />
             <img
-              className="md:w-[350px] min-w-full md:h-[400px] border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
+              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={three3}
               alt=""
             />
