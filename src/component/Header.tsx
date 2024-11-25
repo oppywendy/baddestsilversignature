@@ -27,12 +27,8 @@ const Header = () => {
               Gallery
             </Link>
           </div>
-          {/* <div className="hover:bg-slate-300 bg-yellow-600 rounded-lg">
-       <div className="md:w-40 w-16 md:h-10 h-7 rounded-lg border border-black justify-center items-center flex md:text-lg text-sm text-black"><a  href="#">Book Appointment</a></div>
-
-       </div> */}
           <div className="">
-            <button className="hover:bg-yellow-800 transition-all duration-300 md:w-40 md:h-10 w-10 h-9 rounded-lg border border-black justify-center items-center flex cursor-pointer md:text-lg text-xs bg-yellow-600 text-black">
+            <button className="hover:bg-yellow-800 transition-all duration-300 md:w-40 md:h-10 w-10 h-9 rounded-lg border border-black justify-center items-center flex cursor-pointer md:text-lg text-xs bg-yellow-500 text-black">
               <a href="https://wa.me/2349091737314">Book Now</a>
             </button>
           </div>
