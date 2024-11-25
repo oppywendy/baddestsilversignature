@@ -61,13 +61,13 @@ import three3 from "../assets/33.jpg";
 
 const Photos = () => {
   return (
-    <div className="bg-black">
-      <h1 className="font-bold text-center md:text-5xl text-3xl md:pt-36 pt-20 pb-5 md:pb-10 text-yellow-500">
+    <div className="bg-transparent">
+      <h1 className="font-bold text-center md:text-5xl text-3xl md:pt-36 pt-20 pb-5 md:pb-10 text-black">
         OUR GALLERY
       </h1>
       <div className="w-full max-h-full justify-center items-center flex">
-        <div className="w-[98%] h-[96%]">
-          <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 items-center justify-center mb-10 gap-2">
+        <div className="md:w-[98%] w-full  h-[96%]">
+          <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 items-center justify-center md:mb-10 mb-1 md:gap-2 gap-1">
             <img
               className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
               src={davido}
