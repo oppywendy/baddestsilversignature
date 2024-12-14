@@ -20,9 +20,9 @@ const Header = () => {
             <a className="hover:text-yellow-300" href="/">
               Home
             </a>
-            <Link to="/pricelist" className="hover:text-yellow-300">
+            {/* <Link to="/pricelist" className="hover:text-yellow-300">
               Pricelist
-            </Link>
+            </Link> */}
             <Link to="gallery" className="hover:text-yellow-300">
               Gallery
             </Link>
