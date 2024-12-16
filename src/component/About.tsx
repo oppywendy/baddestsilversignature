@@ -33,22 +33,22 @@ const About = () => {
             Monday Off day
           </p>
           <p className="font-medium font-mono md:text-[25px] text-lg justify-start items-center flex">
-            Tuesday 9:00am - 8:00pm
+            Tuesday 10:00am - 8:00pm
           </p>
           <p className="font-medium font-mono md:text-[25px] text-lg justify-start items-center flex">
-            Wednesday 9:00am - 8:00pm
+            Wednesday 10:00am - 8:00pm
           </p>
           <p className="font-medium font-mono md:text-[25px] text-lg justify-start items-center flex">
-            Thursday 9:00am - 8:00pm
+            Thursday 10:00am - 8:00pm
           </p>
           <p className="font-medium font-mono md:text-[25px] text-lg justify-start items-center flex">
-            Friday 9:00am - 8:00pm
+            Friday 10:00am - 9:00pm
           </p>
           <p className="font-medium font-mono md:text-[25px] text-lg justify-start items-center flex">
-            Saturday 9:00am - 8:00pm
+            Saturday 10:00am - 9:00pm
           </p>
           <p className="font-medium font-mono md:text-[25px] text-lg justify-start items-center flex">
-            Sunday 9:00am - 8:00pm
+            Sunday 1:00pm - 8:00pm
           </p>
         </div>
         <div className="flex md:gap-5 gap-2 md:pt-5 pt-3 justify-center items-center pb-10">
