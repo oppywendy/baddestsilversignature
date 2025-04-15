@@ -8,7 +8,7 @@ import { FaRegStar } from "react-icons/fa6";
 
 const Service = () => {
   return (
-    <div className="w-full md:h-[170vh] min-h-full pb-10 bg-[#FBFBFB]">
+    <div className="w-full font-poppins pb-20 bg-[#ddd]">
       <div>
         <h1 className="font-medium font-serif lg:text-[40px] md:text-5xl text-3xl justify-center flex lg:pt-8 md:pt-10 pt-5 text-red-950">
           OUR SERVICES
