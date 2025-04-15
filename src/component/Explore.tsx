@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Explore = () => {
   return (
-    <div className="w-full max-h-full bg-transparent justify-center items-center flex md:mt-10 md:mb-10">
+    <div className="w-full justify-center items-center flex md:pt-28 pt-10 md:pb-20 pb-16 font-poppins bg-[#FBFBFB]">
       <div className="lg:w-[80%] w-full lg:h-[70vh] max-h-full bg-black justify-center items-center border border-black flex md:rounded-3xl text-white">
         <div className="flex w-[100%] h-[100%] rounded-3xl flex-col lg:flex-row">
           <div className="lg:w-[50%] w-full lg:h-[100%] h-[45%]">
@@ -18,7 +18,7 @@ const Explore = () => {
               tequila.
             </p>
             <div className="justify-center items-center grid lg:pt-14 md:pt-10 pt-8">
-              <button className="w-48 h-12 rounded-r-full rounded-l-full border border-black hover:bg-yellow-700 justify-center items-center flex cursor-pointer bg-[#EAB308] text-black">
+              <button className="w-48 h-12 rounded-lg border border-black hover:bg-[#b8922f] justify-center items-center flex cursor-pointer bg-[#d4af37] text-black">
                 <a href="https://wa.me/2349091737314">Book Appointment</a>
                 <div className="pl-2 justify-center items-center flex">
                   <FaArrowRight />

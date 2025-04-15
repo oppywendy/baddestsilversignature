@@ -61,7 +61,7 @@ import three3 from "../assets/33.jpg";
 
 const Photos = () => {
   return (
-    <div className="bg-transparent">
+    <div className="font-poppins pb-16 md:pb-20">
       <h1 className="font-bold text-center md:text-5xl text-3xl md:pt-36 pt-20 pb-5 md:pb-10 text-black">
         OUR GALLERY
       </h1>
