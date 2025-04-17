@@ -14,7 +14,7 @@ const Service = () => {
         </h1>
       </div>
       <div className="justify-center items-center flex md:pt-16 pt-10">
-        <div className="w-[90%] justify-center items-center flex pt-5 md:pt-10">
+        <div className="md:w-[90%] w-[80%] justify-center items-center flex pt-5 md:pt-10">
           <div className="w-[100%] lg:grid-cols-3 md:grid-cols-2 grid gap-10">
             <div className="border border-black bg-black rounded-3xl text-white hover:shadow-slate-700 shadow cursor-pointer md:hover:scale-105 hover:scale-y-105 transform transition-all duration-300">
               <div className="relative justify-center items-center flex">
