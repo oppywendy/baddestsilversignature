@@ -20,60 +20,60 @@ const Gallery = () => {
           </h1>
         </div>
         <div className=" w-full md:pt-16 pt-10 justify-center items-center flex">
-          <div className="w-[96%] justify-center items-center grid md:grid-cols-5 gap-5">
+          <div className="w-[96%] justify-center items-center grid md:grid-cols-5 grid-cols-5 md:gap-5 gap-2">
             <img
-              className="w-[16rem] h-[20rem] rounded-xl border border-[#d4af37] shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform md:translate-y-10  transition-all duration-300"
+              className="md:w-[16rem] md:h-[20rem] rounded-xl border border-[#d4af37] shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform md:translate-y-10 translate-y-5  transition-all duration-300"
               src={burna}
               alt=""
             />
             <img
-              className="w-[16rem] h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform transition-all duration-300"
+              className="md:w-[16rem] md:h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform transition-all duration-300"
               src={davido}
               alt=""
             />
             <img
-              className="w-[16rem] h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform md:translate-y-10 transition-all duration-300"
+              className="md:w-[16rem] md:h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform md:translate-y-10 translate-y-5 transition-all duration-300"
               src={skiibii}
               alt=""
             />
             <img
-              className="w-[16rem] h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform transition-all duration-300"
+              className="md:w-[16rem] md:h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform transition-all duration-300"
               src={bnxn}
               alt=""
             />
             <img
-              className="w-[16rem] h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform md:translate-y-10 transition-all duration-300"
+              className="md:w-[16rem] md:h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform md:translate-y-10 translate-y-5 transition-all duration-300"
               src={dbanj}
               alt=""
             />
             <img
-              className="w-[16rem] h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform md:translate-y-10 transition-all duration-300"
+              className="md:w-[16rem] md:h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform md:translate-y-10 translate-y-5 transition-all duration-300"
               src={pic}
               alt=""
             />
             <img
-              className="w-[16rem] h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform transition-all duration-300"
+              className="md:w-[16rem] md:h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform transition-all duration-300"
               src={dotun}
               alt=""
             />
             <img
-              className="w-[16rem] h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform md:translate-y-10 transition-all duration-300"
+              className="md:w-[16rem] md:h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform md:translate-y-10 translate-y-5 transition-all duration-300"
               src={e4ma}
               alt=""
             />
             <img
-              className="w-[16rem] h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform transition-all duration-300"
+              className="md:w-[16rem] md:h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform transition-all duration-300"
               src={djobi}
               alt=""
             />
             <img
-              className="w-[16rem] h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform md:translate-y-10 transition-all duration-300"
+              className="md:w-[16rem] md:h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform md:translate-y-10 translate-y-5 transition-all duration-300"
               src={customer}
               alt=""
             />
           </div>
         </div>
-        <div className="items-center justify-center flex md:pt-36 pt-10">
+        <div className="items-center justify-center flex md:pt-36 pt-20">
           <button className="md:w-48 w-24 md:h-12 h-8 rounded-lg hover:bg-[#b8922f] justify-center items-center flex cursor-pointer bg-[#d4af37] text-sm md:text-lg">
             <Link to="/gallery">View more</Link>
           </button>

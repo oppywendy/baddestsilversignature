@@ -5,7 +5,7 @@ import { IoIosCall } from "react-icons/io";
 const Footer = () => {
   return (
     <div className="w-full lg:h-[50vh] md:h-[30vh] bg-black justify-center items-center flex pt-10 pl-3 pb-10 md:pb-0 font-poppins">
-      <div className="flex w-[98%] h-[98%] flex-col lg:flex-row md:flex-wrap md:text-lg lg:text-lg text-sm">
+      <div className="flex w-[98%] h-[98%] flex-col lg:flex-row md:flex-row md:text-lg lg:text-lg text-sm">
         <div className="lg:w-[25%] w-full h-[98%] text-yellow-500">
           <h1 className="text-xl md:pb-3">Company</h1>
           <p className="pt-2">Home</p>
