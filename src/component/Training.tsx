@@ -6,7 +6,7 @@ import { FaCertificate } from "react-icons/fa6";
 
 const Training = () => {
   return (
-    <div className="w-full max-h-full bg-[#ddd] justify-center items-center flex font-poppins md:pt-28 pt-10 md:pb-20 pb-16">
+    <div className="w-full max-h-full bg-[#ddd] justify-center items-center flex font-poppins md:pt-28 pt-24 md:pb-20 pb-16">
       <div className="w-[90%] h-[98%]">
         <h1 className="md:text-5xl text-3xl font-bold text-center">
           GROOMING EXPERIENCE
