@@ -30,10 +30,10 @@ const Header = () => {
             <a className="hover:text-[#d4af37]" href="/">
               Home
             </a>
-            <Link to="/pricelist" className="hover:text-yellow-300">
+            <Link to="/pricelist" className="hover:text-[#d4af37]">
               Pricelist
             </Link>
-            <Link to="gallery" className="hover:text-yellow-300">
+            <Link to="gallery" className="hover:text-[#d4af37]">
               Gallery
             </Link>
           </div>
@@ -45,17 +45,32 @@ const Header = () => {
         </div>
 
         {/* Hamburger Icon */}
-        <button className="md:hidden" onClick={toggleMenu}>
+        <button
+          className="md:hidden z-50 hover:text-[#d4af37]"
+          onClick={toggleMenu}
+          aria-expanded={isOpen}
+          aria-label="Toggle menu"
+        >
           {isOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-white px-4 pb-4 pt-2 shadow-md">
-          <ul className="flex flex-col gap-2 text-black text-xs pt-14">
+        <div
+          className={`fixed inset-0 bg-black/70 backdrop-blur-md md:hidden z-40
+          flex flex-col items-center justify-center gap-6
+          transform transition-all duration-500 ease-in-out
+          ${
+            isOpen
+              ? "translate-y-0 opacity-100 pointer-events-auto"
+              : "-translate-y-full opacity-0 pointer-events-none"
+          }
+        `}
+        >
+          <ul className="flex flex-col items-center gap-6 text-white text-lg">
             <li>
-              <Link to="/" onClick={closeMenu}>
+              <Link to="/" onClick={closeMenu} className="hover:text-[#d4af37]">
                 Home
               </Link>
             </li>
@@ -63,22 +78,26 @@ const Header = () => {
               <Link
                 to="/pricelist"
                 onClick={closeMenu}
-                className="hover:text-yellow-300"
+                className="hover:text-[#d4af37]"
               >
                 Pricelist
               </Link>
             </li>
             <li>
               <Link
-                to="gallery"
+                to="/gallery"
                 onClick={closeMenu}
-                className="hover:text-yellow-300"
+                className="hover:text-[#d4af37]"
               >
                 Gallery
               </Link>
             </li>
             <li>
-              <a href="https://wa.me/2349091737314" onClick={closeMenu}>
+              <a
+                href="https://wa.me/2349091737314"
+                onClick={closeMenu}
+                className="bg-[#d4af37] text-black px-6 py-2 rounded-lg hover:bg-[#b8922f] transition"
+              >
                 Book Now
               </a>
             </li>
