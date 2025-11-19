@@ -11,22 +11,19 @@ const Header = () => {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <nav className="shadow-md lg:h-[15vh] md:h-[10vh] h-[8vh] w-full flex justify-center items-center text-[#ffffff] bg-[#1a1a1a] fixed z-50 font-poppins">
+    <nav className="shadow-md lg:h-[15vh] md:h-[10vh] h-[8vh] w-full flex justify-center items-center text-[#ffffff] bg-[#f7f2f2b9] fixed z-50 font-poppins">
       <div className="max-w-7xl mx-auto px-4 py-3 w-[95%] h-[9vh] flex items-center justify-between">
         {/* Logo */}
         <div className="flex md:gap-2 gap-5 items-center">
-          <div className="md:w-28 w-20">
-            <img src={logo} alt="logo" />
-          </div>
-          <div>
-            <h1 className=" lg:text-[30px] md:text-[20px] text-base">
-              BADDEST SILVER SIGNATURE
-            </h1>
+          <div className="lg:w-28 w-16">
+            <a href="/">
+              <img src={logo} alt="logo" />
+            </a>
           </div>
         </div>
 
         <div className="justify-center items-center gap-5 hidden md:flex">
-          <div className="flex md:gap-5 gap-2 md:text-[20px] text-xs">
+          <div className="flex md:gap-5 gap-2 md:text-[20px] text-xs text-black">
             <a className="hover:text-[#d4af37]" href="/">
               Home
             </a>
@@ -38,7 +35,7 @@ const Header = () => {
             </Link>
           </div>
           <div className="">
-            <button className="hover:bg-[#b8922f] transition-all duration-300 md:w-32 md:h-10 w-10 h-9 rounded-lg justify-center items-center flex cursor-pointer md:text-lg text-xs bg-[#d4af37] text-black">
+            <button className="hover:bg-[#b8922f] transition-all duration-300 md:w-28 md:h-8 w-10 h-9 rounded-md justify-center items-center flex cursor-pointer md:text-lg text-xs bg-black text-white">
               <a href="https://wa.me/2349091737314">Book Now</a>
             </button>
           </div>
@@ -46,7 +43,7 @@ const Header = () => {
 
         {/* Hamburger Icon */}
         <button
-          className="md:hidden z-50 hover:text-[#d4af37]"
+          className="md:hidden z-50 hover:text-[#d4af37] text-black"
           onClick={toggleMenu}
           aria-expanded={isOpen}
           aria-label="Toggle menu"

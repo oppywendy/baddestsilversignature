@@ -10,71 +10,75 @@ import customer from "../assets/bss customer 2.jpg";
 import pic from "../assets/10.jpg";
 import { Link } from "react-router-dom";
 
+const photos = [
+  {
+    id: 1,
+    image: burna,
+  },
+  {
+    id: 2,
+    image: davido,
+  },
+  {
+    id: 3,
+    image: skiibii,
+  },
+  {
+    id: 4,
+    image: dbanj,
+  },
+  {
+    id: 5,
+    image: bnxn,
+  },
+  {
+    id: 6,
+    image: djobi,
+  },
+  {
+    id: 7,
+    image: dotun,
+  },
+  {
+    id: 8,
+    image: e4ma,
+  },
+  {
+    id: 9,
+    image: customer,
+  },
+  {
+    id: 10,
+    image: pic,
+  },
+];
+
 const Gallery = () => {
   return (
     <div className="w-full min-h-full bg-[#ddd] font-poppins md:pt-28 pt-10 md:pb-20 pb-16">
       <div>
         <div>
-          <h1 className="text-center md:text-5xl text-3xl font-bold">
+          <h1 className="text-center lg:text-4xl text-2xl font-semibold">
             OUR GALLERY
           </h1>
         </div>
-        <div className=" w-full md:pt-16 pt-10 justify-center items-center flex">
-          <div className="w-[96%] justify-center items-center grid md:grid-cols-5 grid-cols-5 md:gap-5 gap-2">
-            <img
-              className="md:w-[16rem] md:h-[20rem] rounded-xl border border-[#d4af37] shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform md:translate-y-10 translate-y-5  transition-all duration-300"
-              src={burna}
-              alt=""
-            />
-            <img
-              className="md:w-[16rem] md:h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform transition-all duration-300"
-              src={davido}
-              alt=""
-            />
-            <img
-              className="md:w-[16rem] md:h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform md:translate-y-10 translate-y-5 transition-all duration-300"
-              src={skiibii}
-              alt=""
-            />
-            <img
-              className="md:w-[16rem] md:h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform transition-all duration-300"
-              src={bnxn}
-              alt=""
-            />
-            <img
-              className="md:w-[16rem] md:h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform md:translate-y-10 translate-y-5 transition-all duration-300"
-              src={dbanj}
-              alt=""
-            />
-            <img
-              className="md:w-[16rem] md:h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform md:translate-y-10 translate-y-5 transition-all duration-300"
-              src={pic}
-              alt=""
-            />
-            <img
-              className="md:w-[16rem] md:h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform transition-all duration-300"
-              src={dotun}
-              alt=""
-            />
-            <img
-              className="md:w-[16rem] md:h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform md:translate-y-10 translate-y-5 transition-all duration-300"
-              src={e4ma}
-              alt=""
-            />
-            <img
-              className="md:w-[16rem] md:h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform transition-all duration-300"
-              src={djobi}
-              alt=""
-            />
-            <img
-              className="md:w-[16rem] md:h-[20rem] rounded-xl border border-yellow-500 shadow-lg cursor-pointer md:hover:scale-105 hover:scale-y-105 transform md:translate-y-10 translate-y-5 transition-all duration-300"
-              src={customer}
-              alt=""
-            />
-          </div>
+        <div className="w-full lg:pt-16 pt-10 lg:grid flex md:grid-cols-5 md:gap-5 overflow-x-auto overflow-hidden group lg:space-x-0 space-x-5 p-5">
+          {photos.map((item) => (
+            <div
+              key={item.id}
+              className="overflow-hidden rounded-lg min-w-[200px] lg:min-w-0"
+            >
+              <img
+                src={item.image}
+                alt=""
+                loading="lazy"
+                className="w-full h-60 lg:h-80 object-cover rounded-lg cursor-pointer transform transition-transform duration-500 hover:scale-110"
+              />
+            </div>
+          ))}
         </div>
-        <div className="items-center justify-center flex md:pt-36 pt-20">
-          <button className="md:w-48 w-24 md:h-12 h-8 rounded-lg hover:bg-[#b8922f] justify-center items-center flex cursor-pointer bg-[#d4af37] text-sm md:text-lg">
+        <div className="items-center justify-center flex md:pt-24 pt-10">
+          <button className="md:w-48 w-24 md:h-12 h-8 rounded-lg hover:bg-[#b8922f] justify-center items-center flex cursor-pointer bg-black text-[#d4af37] text-sm md:text-lg">
             <Link to="/gallery">View more</Link>
           </button>
         </div>

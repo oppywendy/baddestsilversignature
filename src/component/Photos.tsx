@@ -58,319 +58,160 @@ import thirty from "../assets/30.jpg";
 import three1 from "../assets/31.jpg";
 import three2 from "../assets/32.jpg";
 import three3 from "../assets/33.jpg";
+import { useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
+
+const photos = [
+  { id: 1, image: davido },
+  { id: 2, image: burnaboy },
+  { id: 3, image: skiibii },
+  { id: 4, image: buju },
+  { id: 5, image: dbanj },
+  { id: 6, image: djobi },
+  { id: 7, image: dotun },
+  { id: 8, image: kalu },
+  { id: 9, image: asisat },
+  { id: 10, image: e4ma },
+  { id: 11, image: liquorose },
+  { id: 12, image: ceo },
+  { id: 13, image: oppy },
+  { id: 14, image: kiki },
+  { id: 15, image: dammy },
+  { id: 16, image: zeus },
+  { id: 17, image: yakiss },
+  { id: 18, image: gent },
+  { id: 19, image: seunwheel },
+  { id: 20, image: agbo },
+  { id: 21, image: color },
+  { id: 22, image: color2 },
+  { id: 23, image: sketch },
+  { id: 24, image: lining },
+  { id: 25, image: customer },
+  { id: 26, image: p4 },
+  { id: 27, image: lawi },
+  { id: 28, image: one },
+  { id: 29, image: two },
+  { id: 30, image: three },
+  { id: 31, image: four },
+  { id: 32, image: five },
+  { id: 33, image: six },
+  { id: 34, image: seven },
+  { id: 35, image: eight },
+  { id: 36, image: nine },
+  { id: 37, image: ten },
+  { id: 38, image: eleven },
+  { id: 39, image: twelve },
+  { id: 40, image: thirteen },
+  { id: 41, image: fourteen },
+  { id: 42, image: fifteen },
+  { id: 43, image: sixteen },
+  { id: 44, image: seventeen },
+  { id: 45, image: eighteen },
+  { id: 46, image: ninteen },
+  { id: 47, image: twenty },
+  { id: 48, image: two1 },
+  { id: 49, image: two2 },
+  { id: 50, image: two3 },
+  { id: 51, image: two4 },
+  { id: 52, image: two5 },
+  { id: 53, image: two6 },
+  { id: 54, image: two7 },
+  { id: 55, image: two8 },
+  { id: 56, image: two9 },
+  { id: 57, image: thirty },
+  { id: 58, image: three1 },
+  { id: 59, image: three2 },
+  { id: 60, image: three3 },
+];
 
 const Photos = () => {
+  const [selectedImage, setSelectedImage] = useState<number | null>(null);
+
   return (
     <div className="font-poppins pb-16 md:pb-20">
-      <h1 className="font-bold text-center md:text-5xl text-3xl md:pt-36 pt-20 pb-5 md:pb-10 text-black">
+      <h1 className="text-center md:text-4xl text-2xl md:pt-36 pt-20 pb-5 md:pb-10 font-semibold text-black">
         OUR GALLERY
       </h1>
-      <div className="w-full max-h-full justify-center items-center flex">
-        <div className="md:w-[98%] w-full  h-[96%]">
-          <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 items-center justify-center md:mb-10 mb-1 md:gap-2 gap-1">
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={davido}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={burnaboy}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={skiibii}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={buju}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={dbanj}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={djobi}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={dotun}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={kalu}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={asisat}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={e4ma}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={liquorose}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={ceo}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={oppy}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={kiki}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={dammy}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={zeus}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={yakiss}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={gent}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={seunwheel}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={agbo}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={color}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={color2}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={sketch}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={lawi}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={customer}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={p4}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={thirty}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={one}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={two}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={three}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={four}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={five}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={seven}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={nine}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={ten}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={thirteen}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={fourteen}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={fifteen}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={sixteen}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={seventeen}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={eighteen}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={ninteen}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={twenty}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={two1}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={two2}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={two4}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={two6}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={two7}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={two8}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={three1}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={six}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={eight}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={eleven}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={twelve}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={two3}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={two5}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={two9}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={lining}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={three2}
-              alt=""
-            />
-            <img
-              className="md:w-[350px] min-w-full md:h-[400px] shadow-lg cursor-pointer md:hover:scale-105 transform transition-all duration-300"
-              src={three3}
-              alt=""
-            />
+
+      <div className="w-full justify-center items-center flex">
+        <div className="md:w-[98%] w-full h-[96%]">
+          <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-3 gap-1 items-center justify-center">
+            {photos.map((item, index) => (
+              <motion.div
+                key={item.id}
+                whileHover={{ scale: 1.03 }}
+                transition={{ duration: 0.2 }}
+              >
+                <img
+                  src={item.image}
+                  loading="lazy"
+                  alt="Gallery picture"
+                  onClick={() => setSelectedImage(index)} // FIXED HERE
+                  className="w-full h-[160px] md:h-[300px] lg:h-[400px] object-cover shadow-lg cursor-pointer"
+                />
+              </motion.div>
+            ))}
           </div>
         </div>
       </div>
+
+      {/* MODAL */}
+      <AnimatePresence>
+        {selectedImage !== null && photos[selectedImage] && (
+          <motion.div
+            className="fixed inset-0 bg-black/70 backdrop-blur-sm flex justify-center items-center z-50"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setSelectedImage(null)}
+          >
+            <div
+              className="relative flex items-center"
+              onClick={(e) => e.stopPropagation()}
+            >
+              {/* CLOSE BUTTON */}
+              <button
+                onClick={() => setSelectedImage(null)}
+                className="absolute top-[-50px] right-0 bg-white/30 hover:bg-white/50 text-white px-4 py-2 rounded-full"
+              >
+                Close
+              </button>
+
+              {/* PREVIOUS BUTTON */}
+              <button
+                onClick={() =>
+                  setSelectedImage(
+                    (prev) => (prev! - 1 + photos.length) % photos.length
+                  )
+                }
+                className="absolute lg:left-[-50px] left-2 bg-white/20 hover:bg-white/40 text-white px-3 py-2 rounded-full"
+              >
+                ‹
+              </button>
+
+              {/* IMAGE */}
+              <motion.img
+                src={photos[selectedImage].image} // FIXED
+                className="max-w-[90vw] max-h-[90vh] rounded-xl shadow-xl"
+                initial={{ scale: 0.8, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                exit={{ scale: 0.8, opacity: 0 }}
+                transition={{ duration: 0.25 }}
+              />
+
+              {/* NEXT BUTTON */}
+              <button
+                onClick={() =>
+                  setSelectedImage((prev) => (prev! + 1) % photos.length)
+                }
+                className="absolute lg:right-[-50px] right-2 bg-white/20 hover:bg-white/40 text-white px-3 py-2 rounded-full"
+              >
+                ›
+              </button>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 };

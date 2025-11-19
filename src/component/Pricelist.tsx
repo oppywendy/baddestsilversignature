@@ -78,7 +78,7 @@ const Pricelist = () => {
       <div className="w-full max-w-7xl space-y-10 mt-16">
         {/* Header Section */}
         <div className="text-center">
-          <h1 className="text-4xl md:text-6xl md:mt-10 font-poppins font-bold mb-5">
+          <h1 className="lg:text-4xl text-2xl md:text-4xl md:mt-10 font-poppins font-semibold mb-5">
             OUR PRICING
           </h1>
           <p className="text-sm md:text-xl font-poppins leading-relaxed">

@@ -8,7 +8,12 @@ const About = () => {
     <div>
       <div className="w-full max-h-full font-poppins md:pt-28 pt-10 md:pb-20 pb-16">
         <div className="justify-center flex">
-          <img className="md:w-[300px] w-[200px]" src={logo} alt="" />
+          <img
+            loading="lazy"
+            className="md:w-[300px] w-[200px]"
+            src={logo}
+            alt=""
+          />
         </div>
         <div className="justify-center items-center flex">
           <div className="pt-10 justify-center grid w-[90%]">
@@ -59,7 +64,7 @@ const About = () => {
                 {" "}
                 <a href="https://www.instagram.com/baddest_silver?igsh=MWF5YXlibGtyaG43eA==">
                   <FaInstagramSquare
-                    size={40}
+                    size={20}
                     color="red"
                     className="cursor-pointer"
                   />
@@ -68,7 +73,7 @@ const About = () => {
               <div>
                 <a href="https://www.tiktok.com/@baddestsilver?_t=8q1ybbvsUw2&_r=1">
                   <FaTiktok
-                    size={40}
+                    size={20}
                     color="black"
                     className="cursor-pointer"
                   />
@@ -77,7 +82,7 @@ const About = () => {
               <div>
                 <a href="https://snapchat.com/t/kOohVarU">
                   <IoLogoSnapchat
-                    size={40}
+                    size={20}
                     color="gold"
                     className="cursor-pointer"
                   />
@@ -86,7 +91,7 @@ const About = () => {
               <div>
                 <a href="https://www.facebook.com/alhaji.silver?mibextid=JRoKGi">
                   <FaFacebook
-                    size={40}
+                    size={20}
                     color="blue"
                     className="cursor-pointer"
                   />
@@ -95,7 +100,7 @@ const About = () => {
               <div>
                 <a href="">
                   <FaXTwitter
-                    size={40}
+                    size={20}
                     color="black"
                     className="cursor-pointer"
                   />
