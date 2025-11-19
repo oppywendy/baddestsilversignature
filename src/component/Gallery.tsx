@@ -62,7 +62,7 @@ const Gallery = () => {
             OUR GALLERY
           </h1>
         </div>
-        <div className="w-full lg:pt-16 pt-10 lg:grid flex md:grid-cols-5 md:gap-5 overflow-x-auto overflow-hidden group lg:space-x-0 space-x-5 p-5">
+        <div className="w-full lg:pt-16 pt-10 lg:grid flex md:grid-cols-5 md:gap-5 overflow-x-auto overflow-hidden no-scrollbar group lg:space-x-0 space-x-5 p-5">
           {photos.map((item) => (
             <div
               key={item.id}
