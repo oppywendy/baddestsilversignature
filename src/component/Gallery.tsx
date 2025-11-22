@@ -55,7 +55,7 @@ const photos = [
 
 const Gallery = () => {
   return (
-    <div className="w-full min-h-full bg-[#ddd] font-poppins md:pt-28 pt-10 md:pb-20 pb-16">
+    <div className="w-full min-h-full bg-[#FBFBFB] font-poppins md:pt-28 pt-10 md:pb-20 pb-16">
       <div>
         <div>
           <h1 className="text-center lg:text-4xl text-2xl font-semibold">

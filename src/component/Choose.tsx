@@ -3,7 +3,7 @@ import pic2 from "../assets/6.jpg";
 
 const Choose = () => {
   return (
-    <div className="w-[100%] justify-center items-center flex lg:pt-28 pt-10 lg:pb-20 pb-16 font-poppins bg-[#ddd]">
+    <div className="w-[100%] justify-center items-center flex lg:pt-28 pt-10 lg:pb-20 pb-16 font-poppins bg-[#FBFBFB]">
       <div className="lg:w-[98%] w-full flex justify-center flex-col lg:flex-row">
         <div className="lg:w-[50%] w-full relative">
           <img

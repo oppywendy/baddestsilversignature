@@ -6,41 +6,38 @@ import { GiMorgueFeet } from "react-icons/gi";
 
 const Hero = () => {
   return (
-    <div className="pt-10 pb-10 w-full flex-wrap overflow-hidden font-poppins">
+    <div className="relative pt-10 lg:pt-0 w-full font-poppins bg-[#FBFBFB] text-white">
       <div
-        className="bg-cover bg-center lg:h-screen h-[55h] flex w-full bg-transparent bg-opacity-50 bg-blend-overlay"
-        // style={{ backgroundImage: `url(${pic})` }}
-      >
-        <div className="w-[65%] bg-[#FBFBFB] h-[50vh] md:h-auto">
-          <div className="md:w-[100%] h-[80%] justify-center items-center flex">
-            <div className="md:p-0 p-2 pt-10 md:pt-0">
-              <h1 className=" pt-1 font-semibold md:text-4xl text-xl">
-                Welcome to Baddest Silver Signature
-              </h1>
-              <p className="md:pt-3 pt-1 md:text-xl text-sm">
-                Where style meets precision.
-              </p>
-              <p className="md:pt-3 pt-1 md:text-xl text-sm">
-                Step into a clean, relaxing space and step out with confidence.
-              </p>
-            </div>
-          </div>
-          <div className="flex h-[20%] justify-center items-center]">
-            <button className="hover:bg-gray-900 md:w-48 md:h-11 w-32 h-10 text-xs md:text-base rounded-lg justify-center items-center flex cursor-pointer text-[#d4af37] bg-black">
-              <a href="https://wa.me/2349091737314">Book Appointment</a>
-            </button>
-          </div>
+        className="absolute bg-cover bg-center inset-0 lg:h-screen brightness-[0.40] flex w-full bg-transparent bg-opacity-50 bg-blend-overlay"
+        style={{ backgroundImage: `url(${pic})` }}
+      ></div>
+      <div className="relative w-[65%] bg-transparent h-screen md:h-screen flex flex-col justify-center px-4 gap-4">
+        <div>
+          <h1 className="font-semibold md:text-4xl text-xl">
+            Welcome to Baddest Silver Signature
+          </h1>
+          <p className="md:pt-3 pt-1 md:text-xl text-sm">
+            Where style meets precision.
+          </p>
+          <p className="md:pt-3 pt-1 md:text-xl text-sm">
+            Step into a clean, relaxing space and step out with confidence.
+          </p>
         </div>
-        <div className="w-[35%] bg-[#FBFBFB] justify-center items-center flex">
-          <img
-            src={pic}
-            alt=""
-            loading="lazy"
-            className="rounded-full md:h-[65%] h-[50%]"
-          />
+        <div className="mt-6">
+          <button className="hover:bg-gray-900 md:w-48 md:h-11 w-32 h-10 text-xs md:text-base rounded-lg justify-center items-center flex cursor-pointer text-[#d4af37] bg-black">
+            <a href="https://wa.me/2349091737314">Book Appointment</a>
+          </button>
         </div>
       </div>
-      <div className="w-full md:h-[30vh] h-[15vh] justify-center items-center pt-5 md:pt-0 flex bg-[#FBFBFB]">
+      {/* <div className="w-[35%] bg-transparent justify-center items-center flex">
+        <img
+          src={pic}
+          alt=""
+          loading="lazy"
+          className="relative rounded-full md:h-[65%] h-[50%]"
+        />
+      </div> */}
+      <div className="relative w-full lg:h-[30vh] h-[15vh] justify-center items-center pt-5 md:pt-0 flex bg-transparent lg:bg-[#f7f2f2b9]">
         <div className="w-[20%] h-[90%] justify-center items-center flex">
           <div className="md:w-28 w-16 md:h-28  h-16 bg-black rounded-full justify-center items-center flex">
             <FaCut size={40} color="white" />

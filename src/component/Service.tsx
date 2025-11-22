@@ -62,7 +62,7 @@ const services = [
 
 const Service = () => {
   return (
-    <div className="w-full font-poppins lg:pb-20 pb-16 lg:pt-28 pt-10 bg-[#ddd]">
+    <div className="w-full font-poppins lg:pb-20 pb-16 lg:pt-28 pt-20 bg-[#FBFBFB]">
       <div>
         <h1 className="font-semibold lg:text-4xl text-2xl justify-center flex">
           OUR SERVICES
