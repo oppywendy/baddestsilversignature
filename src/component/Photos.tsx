@@ -58,6 +58,7 @@ import thirty from "../assets/30.jpg";
 import three1 from "../assets/31.jpg";
 import three2 from "../assets/32.jpg";
 import three3 from "../assets/33.jpg";
+
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -126,6 +127,14 @@ const photos = [
 
 const Photos = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
+
+  // 👉 TOUCH STATES
+  const [touchStart, setTouchStart] = useState<number | null>(null);
+  const [touchEnd, setTouchEnd] = useState<number | null>(null);
+
+  const minSwipeDistance = 50;
+
+  // 👉 KEYBOARD NAVIGATION
   useEffect(() => {
     const handleKey = (e: KeyboardEvent) => {
       if (selectedImage === null) return;
@@ -144,9 +153,34 @@ const Photos = () => {
     };
 
     window.addEventListener("keydown", handleKey);
-
     return () => window.removeEventListener("keydown", handleKey);
   }, [selectedImage]);
+
+  // 👉 TOUCH HANDLERS
+  const onTouchStart = (e: React.TouchEvent) => {
+    setTouchEnd(null);
+    setTouchStart(e.targetTouches[0].clientX);
+  };
+
+  const onTouchMove = (e: React.TouchEvent) => {
+    setTouchEnd(e.targetTouches[0].clientX);
+  };
+
+  const onTouchEnd = () => {
+    if (!touchStart || !touchEnd) return;
+
+    const distance = touchStart - touchEnd;
+
+    if (distance > minSwipeDistance) {
+      // swipe left → next
+      setSelectedImage((prev) => (prev! + 1) % photos.length);
+    }
+
+    if (distance < -minSwipeDistance) {
+      // swipe right → prev
+      setSelectedImage((prev) => (prev! - 1 + photos.length) % photos.length);
+    }
+  };
 
   return (
     <div className="font-poppins pb-16 md:pb-20">
@@ -154,9 +188,10 @@ const Photos = () => {
         OUR GALLERY
       </h1>
 
-      <div className="w-full justify-center items-center flex">
-        <div className="md:w-[98%] w-full h-[96%]">
-          <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-3 gap-1 items-center justify-center">
+      {/* GRID */}
+      <div className="w-full flex justify-center">
+        <div className="md:w-[98%] w-full">
+          <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-3 gap-1">
             {photos.map((item, index) => (
               <motion.div
                 key={item.id}
@@ -166,9 +201,9 @@ const Photos = () => {
                 <img
                   src={item.image}
                   loading="lazy"
-                  alt="Gallery picture"
-                  onClick={() => setSelectedImage(index)} // FIXED HERE
-                  className="w-full h-[160px] md:h-[300px] lg:h-[400px] object-cover shadow-lg cursor-pointer"
+                  alt="Gallery"
+                  onClick={() => setSelectedImage(index)}
+                  className="w-full h-[160px] md:h-[300px] lg:h-[400px] object-cover cursor-pointer"
                 />
               </motion.div>
             ))}
@@ -180,7 +215,7 @@ const Photos = () => {
       <AnimatePresence>
         {selectedImage !== null && photos[selectedImage] && (
           <motion.div
-            className="fixed inset-0 bg-black/70 backdrop-blur-sm flex justify-center items-center z-50"
+            className="fixed inset-0 bg-black/80 flex justify-center items-center z-50"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -190,42 +225,45 @@ const Photos = () => {
               className="relative flex items-center"
               onClick={(e) => e.stopPropagation()}
             >
-              {/* CLOSE BUTTON */}
+              {/* CLOSE */}
               <button
                 onClick={() => setSelectedImage(null)}
-                className="absolute top-[-50px] right-0 bg-white/30 hover:bg-white/50 text-white px-4 py-2 rounded-full"
+                className="absolute top-[-50px] right-0 text-white"
               >
                 Close
               </button>
 
-              {/* PREVIOUS BUTTON */}
+              {/* PREV */}
               <button
                 onClick={() =>
                   setSelectedImage(
                     (prev) => (prev! - 1 + photos.length) % photos.length,
                   )
                 }
-                className="absolute lg:left-[-50px] left-2 bg-white/20 hover:bg-white/40 text-white px-3 py-2 rounded-full"
+                className="absolute left-2 text-white text-3xl"
               >
                 ‹
               </button>
 
-              {/* IMAGE */}
+              {/* IMAGE WITH SWIPE */}
               <motion.img
-                src={photos[selectedImage].image} // FIXED
-                className="max-w-[90vw] max-h-[90vh] rounded-xl shadow-xl"
-                initial={{ scale: 0.8, opacity: 0 }}
-                animate={{ scale: 1, opacity: 1 }}
-                exit={{ scale: 0.8, opacity: 0 }}
+                src={photos[selectedImage].image}
+                className="max-w-[90vw] max-h-[90vh] rounded-xl"
+                initial={{ x: 100, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                exit={{ x: -100, opacity: 0 }}
                 transition={{ duration: 0.25 }}
+                onTouchStart={onTouchStart}
+                onTouchMove={onTouchMove}
+                onTouchEnd={onTouchEnd}
               />
 
-              {/* NEXT BUTTON */}
+              {/* NEXT */}
               <button
                 onClick={() =>
                   setSelectedImage((prev) => (prev! + 1) % photos.length)
                 }
-                className="absolute lg:right-[-50px] right-2 bg-white/20 hover:bg-white/40 text-white px-3 py-2 rounded-full"
+                className="absolute right-2 text-white text-3xl"
               >
                 ›
               </button>
