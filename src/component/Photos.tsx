@@ -156,6 +156,18 @@ const Photos = () => {
     return () => window.removeEventListener("keydown", handleKey);
   }, [selectedImage]);
 
+  useEffect(() => {
+    if (selectedImage !== null) {
+      document.body.style.overflow = "hidden"; // lock scroll
+    } else {
+      document.body.style.overflow = "auto"; // restore scroll
+    }
+
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [selectedImage]);
+
   // 👉 TOUCH HANDLERS
   const onTouchStart = (e: React.TouchEvent) => {
     setTouchEnd(null);
@@ -215,22 +227,22 @@ const Photos = () => {
       <AnimatePresence>
         {selectedImage !== null && photos[selectedImage] && (
           <motion.div
-            className="fixed inset-0 bg-black/80 flex justify-center items-center z-50"
+            className="fixed inset-0 bg-black flex justify-center items-center z-50"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             onClick={() => setSelectedImage(null)}
           >
             <div
-              className="relative flex items-center"
+              className="relative w-full h-full flex items-center justify-center"
               onClick={(e) => e.stopPropagation()}
             >
               {/* CLOSE */}
               <button
                 onClick={() => setSelectedImage(null)}
-                className="absolute top-[-50px] right-0 text-white"
+                className="absolute top-5 right-5 bg-black/50 text-white px-4 py-2 rounded-full z-50"
               >
-                Close
+                X
               </button>
 
               {/* PREV */}
@@ -240,7 +252,7 @@ const Photos = () => {
                     (prev) => (prev! - 1 + photos.length) % photos.length,
                   )
                 }
-                className="absolute left-2 text-white text-3xl"
+                className="hidden md:block absolute left-2 text-white text-3xl"
               >
                 ‹
               </button>
@@ -248,7 +260,8 @@ const Photos = () => {
               {/* IMAGE WITH SWIPE */}
               <motion.img
                 src={photos[selectedImage].image}
-                className="max-w-[90vw] max-h-[90vh] rounded-xl"
+                className="w-screen h-screen object-contain rounded-xl"
+                style={{ touchAction: "pan-y" }}
                 initial={{ x: 100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 exit={{ x: -100, opacity: 0 }}
@@ -263,7 +276,7 @@ const Photos = () => {
                 onClick={() =>
                   setSelectedImage((prev) => (prev! + 1) % photos.length)
                 }
-                className="absolute right-2 text-white text-3xl"
+                className="hidden md:block absolute right-2 text-white text-3xl"
               >
                 ›
               </button>
