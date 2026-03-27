@@ -58,7 +58,7 @@ import thirty from "../assets/30.jpg";
 import three1 from "../assets/31.jpg";
 import three2 from "../assets/32.jpg";
 import three3 from "../assets/33.jpg";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 const photos = [
@@ -126,6 +126,27 @@ const photos = [
 
 const Photos = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
+  useEffect(() => {
+    const handleKey = (e: KeyboardEvent) => {
+      if (selectedImage === null) return;
+
+      if (e.key === "ArrowRight") {
+        setSelectedImage((prev) => (prev! + 1) % photos.length);
+      }
+
+      if (e.key === "ArrowLeft") {
+        setSelectedImage((prev) => (prev! - 1 + photos.length) % photos.length);
+      }
+
+      if (e.key === "Escape") {
+        setSelectedImage(null);
+      }
+    };
+
+    window.addEventListener("keydown", handleKey);
+
+    return () => window.removeEventListener("keydown", handleKey);
+  }, [selectedImage]);
 
   return (
     <div className="font-poppins pb-16 md:pb-20">
@@ -181,7 +202,7 @@ const Photos = () => {
               <button
                 onClick={() =>
                   setSelectedImage(
-                    (prev) => (prev! - 1 + photos.length) % photos.length
+                    (prev) => (prev! - 1 + photos.length) % photos.length,
                   )
                 }
                 className="absolute lg:left-[-50px] left-2 bg-white/20 hover:bg-white/40 text-white px-3 py-2 rounded-full"
