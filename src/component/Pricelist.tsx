@@ -61,14 +61,11 @@ const Pricelist = () => {
     {
       title: "HOME SERVICE",
       services: [
-        { service: "Haircut (Lekki - Ikota)", price: "70,000" },
-        { service: "Haircut (Vi - Ikoyi)", price: "80,000" },
-        { service: "Haircut (Vgc - Ajah)", price: "80,000" },
-        { service: "Haircut and color (Lekki Axis)", price: "120,000" },
-        { service: "Haircut and color (Outside Lekki)", price: "130,000" },
-        { service: "Pedicure (Lekki - Ikota)", price: "70,000" },
-        { service: "Pedicure (Vi - Ikoyi)", price: "80,000" },
-        { service: "Pedicure (Vgc - Ajah)", price: "80,000" },
+        { service: "Haircut (Lekki Axis)", price: "100,000" },
+        { service: "Haircut and color (Lekki Axis)", price: "150,000" },
+        { service: "Haircut and color (Outside Lekki)", price: "180,000" },
+        { service: "Haircut (Mainland)", price: "Negotiable based on region" },
+        { service: "Pedicure (Lekki Axis)", price: "100,000" },
       ],
     },
   ];

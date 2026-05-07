@@ -43,7 +43,7 @@ const Header = () => {
 
         {/* Hamburger Icon */}
         <button
-          className="md:hidden z-50 hover:text-[#d4af37] text-black"
+          className="md:hidden z-50 hover:text-[#d4af37] text-[#d4af37]"
           onClick={toggleMenu}
           aria-expanded={isOpen}
           aria-label="Toggle menu"
